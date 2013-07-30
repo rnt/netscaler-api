@@ -26,7 +26,7 @@ class CleanCommand(Command):
         os.system('rm -rf ' + self.files)
 
 setup(
-    name = 'netscaler-api',
+    name = 'python-netscaler-api',
     version = __version__,
     url = 'http://github.com/jathanism/netscaler-api/',
     license = 'BSD',
